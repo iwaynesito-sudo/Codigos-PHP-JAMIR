@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(14, 65, 85);
+
+}
+
+.main-sec {
+    display: flex;
+    background-color: white;
+    font-family: sans-serif;
+    box-shadow: 10px;
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px;
+
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    gap: 20px;
+    height: 50px;
+    align-content: center;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(85, 165, 197);
+    padding: 20px;
+    align-items: center;
+    box-shadow: 0px 0px 3px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}

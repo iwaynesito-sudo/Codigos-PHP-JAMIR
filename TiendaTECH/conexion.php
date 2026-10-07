@@ -1,6 +1,6 @@
 <?php
 
-$conexion= mysqli_connect("localhost","root","","bd_tienda");
+$conexion= mysqli_connect("localhost","root","","tienda");
 
 
 

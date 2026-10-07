@@ -21,12 +21,7 @@ table th {
 }
 
 
-.container {
-    display: flex;
-    align-content: center;
-    align-items: center;
-    width: 100%;
-}
+
 
 a {
     text-decoration: none;

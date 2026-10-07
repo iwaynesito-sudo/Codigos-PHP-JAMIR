@@ -7,7 +7,7 @@ $productos=[];
 
 
 
-$resultado = mysqli_query($conexion, $sql,);
+$resultado = mysqli_query($conexion, $sql);
 
 
 
@@ -24,6 +24,7 @@ while ($datos = mysqli_fetch_assoc($resultado)) {
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
